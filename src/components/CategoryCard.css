@@ -1,0 +1,35 @@
+.category-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 0.5em;
+  margin: 1em;
+  width: 200px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.category-card img {
+  width: 100%;         /* Ensures image takes full width of the card */
+  height: 150px;       /* Fixed height for consistency */
+  object-fit: cover;   /* Crops the image to fit the container, preserving aspect ratio */
+}
+
+
+.category-card h3 {
+  margin: 0.5em 0;
+}
+
+.category-card button {
+  background-color: #ff4081;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.category-card button:hover {
+  background-color: #e0356f;
+}
